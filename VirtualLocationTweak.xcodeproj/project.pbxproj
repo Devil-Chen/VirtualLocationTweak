@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18736AAD22BB5A9500869C99 /* SelectLocationVct.m in Sources */ = {isa = PBXBuildFile; fileRef = 18736AAB22BB5A9500869C99 /* SelectLocationVct.m */; };
+		18736AAE22BB5A9500869C99 /* SelectLocationVct.h in Headers */ = {isa = PBXBuildFile; fileRef = 18736AAC22BB5A9500869C99 /* SelectLocationVct.h */; };
+		18736AF322BB5D6800869C99 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18736AF222BB5D6800869C99 /* CoreLocation.framework */; };
+		1878102C22C6044D007345DA /* DataManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878102A22C6044D007345DA /* DataManage.h */; };
+		1878102D22C6044D007345DA /* DataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878102B22C6044D007345DA /* DataManage.m */; };
+		1878103022C60460007345DA /* DVWifiHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878102E22C60460007345DA /* DVWifiHook.m */; };
+		1878103122C60460007345DA /* DVWifiHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878102F22C60460007345DA /* DVWifiHook.h */; };
+		1878103422C60477007345DA /* DVWifiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878103222C60477007345DA /* DVWifiModel.m */; };
+		1878103522C60477007345DA /* DVWifiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878103322C60477007345DA /* DVWifiModel.h */; };
+		1878103622C60535007345DA /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874AED022C5F765001C7D91 /* fishhook.c */; };
+		1878103722C60538007345DA /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 1874AED122C5F765001C7D91 /* fishhook.h */; };
+		1878DB5022D33D1900849B37 /* SelectWifiVct.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878DB4E22D33D1900849B37 /* SelectWifiVct.m */; };
+		1878DB5122D33D1900849B37 /* SelectWifiVct.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878DB4F22D33D1900849B37 /* SelectWifiVct.h */; };
+		1878DB5422D33ECC00849B37 /* DVWifiList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878DB5222D33ECC00849B37 /* DVWifiList.h */; };
+		1878DB5522D33ECC00849B37 /* DVWifiList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878DB5322D33ECC00849B37 /* DVWifiList.m */; };
+		18851E9D22BA12CC00443BC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18851E9C22BA12CC00443BC0 /* UIKit.framework */; };
+		18851E9F22BA12CC00443BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18851E9E22BA12CC00443BC0 /* Foundation.framework */; };
+		18851EA122BA12CC00443BC0 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18851EA022BA12CC00443BC0 /* CydiaSubstrate.framework */; };
+		18851EB022BA12CC00443BC0 /* VirtualLocationTweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18851EAF22BA12CC00443BC0 /* VirtualLocationTweak.mm */; };
+		18C0852022C602F30061FAF0 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0851F22C602F30061FAF0 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18736AAB22BB5A9500869C99 /* SelectLocationVct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationVct.m; sourceTree = "<group>"; };
+		18736AAC22BB5A9500869C99 /* SelectLocationVct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationVct.h; sourceTree = "<group>"; };
+		18736AB122BB5AB600869C99 /* AMapLocationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapLocationKit.h; sourceTree = "<group>"; };
+		18736AB222BB5AB600869C99 /* AMapGeoFenceError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapGeoFenceError.h; sourceTree = "<group>"; };
+		18736AB322BB5AB600869C99 /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapGeoFenceManager.h; sourceTree = "<group>"; };
+		18736AB422BB5AB600869C99 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapLocationRegionObj.h; sourceTree = "<group>"; };
+		18736AB522BB5AB600869C99 /* AMapLocationVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapLocationVersion.h; sourceTree = "<group>"; };
+		18736AB622BB5AB600869C99 /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
+		18736AB722BB5AB600869C99 /* AMapLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapLocationManager.h; sourceTree = "<group>"; };
+		18736AB822BB5AB600869C99 /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapLocationCommonObj.h; sourceTree = "<group>"; };
+		18736ABA22BB5AB600869C99 /* AMapSearchObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapSearchObj.h; sourceTree = "<group>"; };
+		18736ABB22BB5AB600869C99 /* AMapCommonObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapCommonObj.h; sourceTree = "<group>"; };
+		18736ABC22BB5AB600869C99 /* AMapSearchVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapSearchVersion.h; sourceTree = "<group>"; };
+		18736ABD22BB5AB600869C99 /* AMapSearchError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapSearchError.h; sourceTree = "<group>"; };
+		18736ABE22BB5AB600869C99 /* AMapSearchKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapSearchKit.h; sourceTree = "<group>"; };
+		18736ABF22BB5AB600869C99 /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+		18736AC022BB5AB600869C99 /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		18736AC122BB5AB600869C99 /* AMapSearchAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapSearchAPI.h; sourceTree = "<group>"; };
+		18736AC322BB5AB600869C99 /* AMapURLSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapURLSearch.h; sourceTree = "<group>"; };
+		18736AC422BB5AB600869C99 /* AMapURLSearchType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapURLSearchType.h; sourceTree = "<group>"; };
+		18736AC522BB5AB600869C99 /* NSMutableArray+AMapSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AMapSafe.h"; sourceTree = "<group>"; };
+		18736AC622BB5AB600869C99 /* NSObject+AMapJsonSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMapJsonSerialization.h"; sourceTree = "<group>"; };
+		18736AC722BB5AB600869C99 /* NSMutableDictionary+AMapSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AMapSafe.h"; sourceTree = "<group>"; };
+		18736AC822BB5AB600869C99 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		18736AC922BB5AB600869C99 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapFoundationVersion.h; sourceTree = "<group>"; };
+		18736ACA22BB5AB600869C99 /* AMapUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapUtility.h; sourceTree = "<group>"; };
+		18736ACB22BB5AB600869C99 /* AMapFoundationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapFoundationKit.h; sourceTree = "<group>"; };
+		18736ACC22BB5AB600869C99 /* AMapServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapServices.h; sourceTree = "<group>"; };
+		18736ACE22BB5AB600869C99 /* MAMultiPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMultiPoint.h; sourceTree = "<group>"; };
+		18736ACF22BB5AB600869C99 /* MAGroundOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGroundOverlay.h; sourceTree = "<group>"; };
+		18736AD022BB5AB600869C99 /* MAPolygonRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolygonRenderer.h; sourceTree = "<group>"; };
+		18736AD122BB5AB600869C99 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPinAnnotationView.h; sourceTree = "<group>"; };
+		18736AD222BB5AB600869C99 /* MAOverlayPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOverlayPathView.h; sourceTree = "<group>"; };
+		18736AD322BB5AB600869C99 /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
+		18736AD422BB5AB600869C99 /* MACircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACircleView.h; sourceTree = "<group>"; };
+		18736AD522BB5AB600869C99 /* MAPointAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPointAnnotation.h; sourceTree = "<group>"; };
+		18736AD622BB5AB600869C99 /* MACircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACircle.h; sourceTree = "<group>"; };
+		18736AD722BB5AB600869C99 /* MAAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAnnotation.h; sourceTree = "<group>"; };
+		18736AD822BB5AB600869C99 /* MAPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolygon.h; sourceTree = "<group>"; };
+		18736AD922BB5AB600869C99 /* MAPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolyline.h; sourceTree = "<group>"; };
+		18736ADA22BB5AB600869C99 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
+		18736ADB22BB5AB600869C99 /* MAOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOverlay.h; sourceTree = "<group>"; };
+		18736ADC22BB5AB600869C99 /* MATileOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MATileOverlayView.h; sourceTree = "<group>"; };
+		18736ADD22BB5AB600869C99 /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MATileOverlayRenderer.h; sourceTree = "<group>"; };
+		18736ADE22BB5AB600869C99 /* MAMapVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMapVersion.h; sourceTree = "<group>"; };
+		18736ADF22BB5AB600869C99 /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGeodesicPolyline.h; sourceTree = "<group>"; };
+		18736AE022BB5AB600869C99 /* MAOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOverlayView.h; sourceTree = "<group>"; };
+		18736AE122BB5AB600869C99 /* MAMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMapKit.h; sourceTree = "<group>"; };
+		18736AE222BB5AB600869C99 /* MAPolylineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolylineView.h; sourceTree = "<group>"; };
+		18736AE322BB5AB600869C99 /* MAGroundOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGroundOverlayView.h; sourceTree = "<group>"; };
+		18736AE422BB5AB600869C99 /* MAMultiPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMultiPolyline.h; sourceTree = "<group>"; };
+		18736AE522BB5AB600869C99 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolylineRenderer.h; sourceTree = "<group>"; };
+		18736AE622BB5AB600869C99 /* MAShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAShape.h; sourceTree = "<group>"; };
+		18736AE722BB5AB600869C99 /* MAAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAnnotationView.h; sourceTree = "<group>"; };
+		18736AE822BB5AB600869C99 /* MATileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MATileOverlay.h; sourceTree = "<group>"; };
+		18736AE922BB5AB600869C99 /* MACircleRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACircleRenderer.h; sourceTree = "<group>"; };
+		18736AEA22BB5AB600869C99 /* MAGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGeometry.h; sourceTree = "<group>"; };
+		18736AEB22BB5AB600869C99 /* MAOverlayRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOverlayRenderer.h; sourceTree = "<group>"; };
+		18736AEC22BB5AB600869C99 /* MAUserLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAUserLocation.h; sourceTree = "<group>"; };
+		18736AED22BB5AB600869C99 /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAUserLocationRepresentation.h; sourceTree = "<group>"; };
+		18736AEE22BB5AB600869C99 /* MAMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMapView.h; sourceTree = "<group>"; };
+		18736AEF22BB5AB600869C99 /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOverlayPathRenderer.h; sourceTree = "<group>"; };
+		18736AF022BB5AB600869C99 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
+		18736AF122BB5AB600869C99 /* MAPolygonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPolygonView.h; sourceTree = "<group>"; };
+		18736AF222BB5D6800869C99 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1874AED022C5F765001C7D91 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		1874AED122C5F765001C7D91 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		1878102A22C6044D007345DA /* DataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManage.h; sourceTree = "<group>"; };
+		1878102B22C6044D007345DA /* DataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManage.m; sourceTree = "<group>"; };
+		1878102E22C60460007345DA /* DVWifiHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVWifiHook.m; sourceTree = "<group>"; };
+		1878102F22C60460007345DA /* DVWifiHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVWifiHook.h; sourceTree = "<group>"; };
+		1878103222C60477007345DA /* DVWifiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVWifiModel.m; sourceTree = "<group>"; };
+		1878103322C60477007345DA /* DVWifiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVWifiModel.h; sourceTree = "<group>"; };
+		1878DB4E22D33D1900849B37 /* SelectWifiVct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectWifiVct.m; sourceTree = "<group>"; };
+		1878DB4F22D33D1900849B37 /* SelectWifiVct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectWifiVct.h; sourceTree = "<group>"; };
+		1878DB5222D33ECC00849B37 /* DVWifiList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVWifiList.h; sourceTree = "<group>"; };
+		1878DB5322D33ECC00849B37 /* DVWifiList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVWifiList.m; sourceTree = "<group>"; };
+		18851E9922BA12CC00443BC0 /* VirtualLocationTweak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = VirtualLocationTweak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		18851E9C22BA12CC00443BC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18851E9E22BA12CC00443BC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18851EA022BA12CC00443BC0 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		18851EA522BA12CC00443BC0 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		18851EA922BA12CC00443BC0 /* VirtualLocationTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = VirtualLocationTweak.plist; path = Package/Library/PreferenceLoader/Preferences/VirtualLocationTweak.plist; sourceTree = "<group>"; };
+		18851EAA22BA12CC00443BC0 /* VirtualLocationTweakIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VirtualLocationTweakIcon.png; path = Package/Library/PreferenceLoader/Preferences/VirtualLocationTweakIcon.png; sourceTree = "<group>"; };
+		18851EAB22BA12CC00443BC0 /* VirtualLocationTweakIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VirtualLocationTweakIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/VirtualLocationTweakIcon@2x.png"; sourceTree = "<group>"; };
+		18851EAD22BA12CC00443BC0 /* VirtualLocationTweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VirtualLocationTweak-Prefix.pch"; sourceTree = "<group>"; };
+		18851EAE22BA12CC00443BC0 /* VirtualLocationTweak.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = VirtualLocationTweak.xm; sourceTree = "<group>"; };
+		18851EAF22BA12CC00443BC0 /* VirtualLocationTweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VirtualLocationTweak.mm; sourceTree = "<group>"; };
+		18851EB322BA12CC00443BC0 /* VirtualLocationTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = VirtualLocationTweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/VirtualLocationTweak.plist; sourceTree = "<group>"; };
+		18C0851F22C602F30061FAF0 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18851E9522BA12CC00443BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C0852022C602F30061FAF0 /* NetworkExtension.framework in Frameworks */,
+				18736AF322BB5D6800869C99 /* CoreLocation.framework in Frameworks */,
+				18851E9D22BA12CC00443BC0 /* UIKit.framework in Frameworks */,
+				18851E9F22BA12CC00443BC0 /* Foundation.framework in Frameworks */,
+				18851EA122BA12CC00443BC0 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18736AAA22BB3A3C00869C99 /* Vct */ = {
+			isa = PBXGroup;
+			children = (
+				18736AAC22BB5A9500869C99 /* SelectLocationVct.h */,
+				18736AAB22BB5A9500869C99 /* SelectLocationVct.m */,
+				1878DB4F22D33D1900849B37 /* SelectWifiVct.h */,
+				1878DB4E22D33D1900849B37 /* SelectWifiVct.m */,
+			);
+			path = Vct;
+			sourceTree = "<group>";
+		};
+		18736AAF22BB5AB600869C99 /* AllMapHeader */ = {
+			isa = PBXGroup;
+			children = (
+				18736AB022BB5AB600869C99 /* AMapLocation */,
+				18736AB922BB5AB600869C99 /* AMapSearch */,
+				18736AC222BB5AB600869C99 /* AMapFoundation */,
+				18736ACD22BB5AB600869C99 /* AMap2DMap */,
+			);
+			path = AllMapHeader;
+			sourceTree = "<group>";
+		};
+		18736AB022BB5AB600869C99 /* AMapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				18736AB122BB5AB600869C99 /* AMapLocationKit.h */,
+				18736AB222BB5AB600869C99 /* AMapGeoFenceError.h */,
+				18736AB322BB5AB600869C99 /* AMapGeoFenceManager.h */,
+				18736AB422BB5AB600869C99 /* AMapLocationRegionObj.h */,
+				18736AB522BB5AB600869C99 /* AMapLocationVersion.h */,
+				18736AB622BB5AB600869C99 /* AMapGeoFenceRegionObj.h */,
+				18736AB722BB5AB600869C99 /* AMapLocationManager.h */,
+				18736AB822BB5AB600869C99 /* AMapLocationCommonObj.h */,
+			);
+			path = AMapLocation;
+			sourceTree = "<group>";
+		};
+		18736AB922BB5AB600869C99 /* AMapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				18736ABA22BB5AB600869C99 /* AMapSearchObj.h */,
+				18736ABB22BB5AB600869C99 /* AMapCommonObj.h */,
+				18736ABC22BB5AB600869C99 /* AMapSearchVersion.h */,
+				18736ABD22BB5AB600869C99 /* AMapSearchError.h */,
+				18736ABE22BB5AB600869C99 /* AMapSearchKit.h */,
+				18736ABF22BB5AB600869C99 /* AMapNearbyUploadInfo.h */,
+				18736AC022BB5AB600869C99 /* AMapNearbySearchManager.h */,
+				18736AC122BB5AB600869C99 /* AMapSearchAPI.h */,
+			);
+			path = AMapSearch;
+			sourceTree = "<group>";
+		};
+		18736AC222BB5AB600869C99 /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				18736AC322BB5AB600869C99 /* AMapURLSearch.h */,
+				18736AC422BB5AB600869C99 /* AMapURLSearchType.h */,
+				18736AC522BB5AB600869C99 /* NSMutableArray+AMapSafe.h */,
+				18736AC622BB5AB600869C99 /* NSObject+AMapJsonSerialization.h */,
+				18736AC722BB5AB600869C99 /* NSMutableDictionary+AMapSafe.h */,
+				18736AC822BB5AB600869C99 /* AMapURLSearchConfig.h */,
+				18736AC922BB5AB600869C99 /* AMapFoundationVersion.h */,
+				18736ACA22BB5AB600869C99 /* AMapUtility.h */,
+				18736ACB22BB5AB600869C99 /* AMapFoundationKit.h */,
+				18736ACC22BB5AB600869C99 /* AMapServices.h */,
+			);
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		18736ACD22BB5AB600869C99 /* AMap2DMap */ = {
+			isa = PBXGroup;
+			children = (
+				18736ACE22BB5AB600869C99 /* MAMultiPoint.h */,
+				18736ACF22BB5AB600869C99 /* MAGroundOverlay.h */,
+				18736AD022BB5AB600869C99 /* MAPolygonRenderer.h */,
+				18736AD122BB5AB600869C99 /* MAPinAnnotationView.h */,
+				18736AD222BB5AB600869C99 /* MAOverlayPathView.h */,
+				18736AD322BB5AB600869C99 /* MAHeatMapTileOverlay.h */,
+				18736AD422BB5AB600869C99 /* MACircleView.h */,
+				18736AD522BB5AB600869C99 /* MAPointAnnotation.h */,
+				18736AD622BB5AB600869C99 /* MACircle.h */,
+				18736AD722BB5AB600869C99 /* MAAnnotation.h */,
+				18736AD822BB5AB600869C99 /* MAPolygon.h */,
+				18736AD922BB5AB600869C99 /* MAPolyline.h */,
+				18736ADA22BB5AB600869C99 /* MAMultiColoredPolylineRenderer.h */,
+				18736ADB22BB5AB600869C99 /* MAOverlay.h */,
+				18736ADC22BB5AB600869C99 /* MATileOverlayView.h */,
+				18736ADD22BB5AB600869C99 /* MATileOverlayRenderer.h */,
+				18736ADE22BB5AB600869C99 /* MAMapVersion.h */,
+				18736ADF22BB5AB600869C99 /* MAGeodesicPolyline.h */,
+				18736AE022BB5AB600869C99 /* MAOverlayView.h */,
+				18736AE122BB5AB600869C99 /* MAMapKit.h */,
+				18736AE222BB5AB600869C99 /* MAPolylineView.h */,
+				18736AE322BB5AB600869C99 /* MAGroundOverlayView.h */,
+				18736AE422BB5AB600869C99 /* MAMultiPolyline.h */,
+				18736AE522BB5AB600869C99 /* MAPolylineRenderer.h */,
+				18736AE622BB5AB600869C99 /* MAShape.h */,
+				18736AE722BB5AB600869C99 /* MAAnnotationView.h */,
+				18736AE822BB5AB600869C99 /* MATileOverlay.h */,
+				18736AE922BB5AB600869C99 /* MACircleRenderer.h */,
+				18736AEA22BB5AB600869C99 /* MAGeometry.h */,
+				18736AEB22BB5AB600869C99 /* MAOverlayRenderer.h */,
+				18736AEC22BB5AB600869C99 /* MAUserLocation.h */,
+				18736AED22BB5AB600869C99 /* MAUserLocationRepresentation.h */,
+				18736AEE22BB5AB600869C99 /* MAMapView.h */,
+				18736AEF22BB5AB600869C99 /* MAOverlayPathRenderer.h */,
+				18736AF022BB5AB600869C99 /* MAGroundOverlayRenderer.h */,
+				18736AF122BB5AB600869C99 /* MAPolygonView.h */,
+			);
+			path = AMap2DMap;
+			sourceTree = "<group>";
+		};
+		1874AECF22C5F765001C7D91 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				1874AED122C5F765001C7D91 /* fishhook.h */,
+				1874AED022C5F765001C7D91 /* fishhook.c */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		1878102822C60413007345DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1878103322C60477007345DA /* DVWifiModel.h */,
+				1878103222C60477007345DA /* DVWifiModel.m */,
+				1878102922C60435007345DA /* Utils */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1878102922C60435007345DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1878102A22C6044D007345DA /* DataManage.h */,
+				1878102B22C6044D007345DA /* DataManage.m */,
+				1878102F22C60460007345DA /* DVWifiHook.h */,
+				1878102E22C60460007345DA /* DVWifiHook.m */,
+				1878DB5222D33ECC00849B37 /* DVWifiList.h */,
+				1878DB5322D33ECC00849B37 /* DVWifiList.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18851E8E22BA12CC00443BC0 = {
+			isa = PBXGroup;
+			children = (
+				18851EA222BA12CC00443BC0 /* VirtualLocationTweak */,
+				18851E9B22BA12CC00443BC0 /* Frameworks */,
+				18851E9A22BA12CC00443BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18851E9A22BA12CC00443BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18851E9922BA12CC00443BC0 /* VirtualLocationTweak.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18851E9B22BA12CC00443BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C0851F22C602F30061FAF0 /* NetworkExtension.framework */,
+				18736AF222BB5D6800869C99 /* CoreLocation.framework */,
+				18851E9C22BA12CC00443BC0 /* UIKit.framework */,
+				18851E9E22BA12CC00443BC0 /* Foundation.framework */,
+				18851EA022BA12CC00443BC0 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18851EA222BA12CC00443BC0 /* VirtualLocationTweak */ = {
+			isa = PBXGroup;
+			children = (
+				18851EAE22BA12CC00443BC0 /* VirtualLocationTweak.xm */,
+				18851EAF22BA12CC00443BC0 /* VirtualLocationTweak.mm */,
+				1874AECF22C5F765001C7D91 /* fishhook */,
+				18736AAF22BB5AB600869C99 /* AllMapHeader */,
+				1878102822C60413007345DA /* Model */,
+				18736AAA22BB3A3C00869C99 /* Vct */,
+				18851EA322BA12CC00443BC0 /* Package */,
+				18851EAC22BA12CC00443BC0 /* Supporting Files */,
+			);
+			path = VirtualLocationTweak;
+			sourceTree = "<group>";
+		};
+		18851EA322BA12CC00443BC0 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				18851EA422BA12CC00443BC0 /* DEBIAN */,
+				18851EA622BA12CC00443BC0 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		18851EA422BA12CC00443BC0 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				18851EA522BA12CC00443BC0 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		18851EA622BA12CC00443BC0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				18851EA722BA12CC00443BC0 /* PreferenceLoader */,
+				18851EB122BA12CC00443BC0 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		18851EA722BA12CC00443BC0 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				18851EA822BA12CC00443BC0 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		18851EA822BA12CC00443BC0 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				18851EA922BA12CC00443BC0 /* VirtualLocationTweak.plist */,
+				18851EAA22BA12CC00443BC0 /* VirtualLocationTweakIcon.png */,
+				18851EAB22BA12CC00443BC0 /* VirtualLocationTweakIcon@2x.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		18851EAC22BA12CC00443BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18851EAD22BA12CC00443BC0 /* VirtualLocationTweak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18851EB122BA12CC00443BC0 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				18851EB222BA12CC00443BC0 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		18851EB222BA12CC00443BC0 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				18851EB322BA12CC00443BC0 /* VirtualLocationTweak.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18851E9622BA12CC00443BC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18736AAE22BB5A9500869C99 /* SelectLocationVct.h in Headers */,
+				1878DB5422D33ECC00849B37 /* DVWifiList.h in Headers */,
+				1878DB5122D33D1900849B37 /* SelectWifiVct.h in Headers */,
+				1878103722C60538007345DA /* fishhook.h in Headers */,
+				1878103522C60477007345DA /* DVWifiModel.h in Headers */,
+				1878102C22C6044D007345DA /* DataManage.h in Headers */,
+				1878103122C60460007345DA /* DVWifiHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18851E9822BA12CC00443BC0 /* VirtualLocationTweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18851EB622BA12CC00443BC0 /* Build configuration list for PBXNativeTarget "VirtualLocationTweak" */;
+			buildPhases = (
+				18851E9322BA12CC00443BC0 /* ShellScript */,
+				18851E9422BA12CC00443BC0 /* Sources */,
+				18851E9522BA12CC00443BC0 /* Frameworks */,
+				18851E9622BA12CC00443BC0 /* Headers */,
+				18851E9722BA12CC00443BC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualLocationTweak;
+			productName = VirtualLocationTweak;
+			productReference = 18851E9922BA12CC00443BC0 /* VirtualLocationTweak.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18851E8F22BA12CC00443BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					18851E9822BA12CC00443BC0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 18851E9222BA12CC00443BC0 /* Build configuration list for PBXProject "VirtualLocationTweak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18851E8E22BA12CC00443BC0;
+			productRefGroup = 18851E9A22BA12CC00443BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18851E9822BA12CC00443BC0 /* VirtualLocationTweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18851E9322BA12CC00443BC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		18851E9722BA12CC00443BC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18851E9422BA12CC00443BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878103422C60477007345DA /* DVWifiModel.m in Sources */,
+				18736AAD22BB5A9500869C99 /* SelectLocationVct.m in Sources */,
+				1878DB5022D33D1900849B37 /* SelectWifiVct.m in Sources */,
+				1878103022C60460007345DA /* DVWifiHook.m in Sources */,
+				1878DB5522D33ECC00849B37 /* DVWifiList.m in Sources */,
+				18851EB022BA12CC00443BC0 /* VirtualLocationTweak.mm in Sources */,
+				1878103622C60535007345DA /* fishhook.c in Sources */,
+				1878102D22C6044D007345DA /* DataManage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18851EB422BA12CC00443BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"VirtualLocationTweak\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18851EB522BA12CC00443BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"VirtualLocationTweak\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		18851EB722BA12CC00443BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualLocationTweak/VirtualLocationTweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.2.3;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18851EB822BA12CC00443BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualLocationTweak/VirtualLocationTweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.2.3;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18851E9222BA12CC00443BC0 /* Build configuration list for PBXProject "VirtualLocationTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18851EB422BA12CC00443BC0 /* Release */,
+				18851EB522BA12CC00443BC0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18851EB622BA12CC00443BC0 /* Build configuration list for PBXNativeTarget "VirtualLocationTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18851EB722BA12CC00443BC0 /* Release */,
+				18851EB822BA12CC00443BC0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18851E8F22BA12CC00443BC0 /* Project object */;
+}
